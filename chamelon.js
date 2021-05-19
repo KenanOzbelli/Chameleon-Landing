@@ -4,7 +4,7 @@ const hueTitle = yarnContainer.querySelector('#HueTitle');
 const yarn_colors = yarnContainer.querySelectorAll('.yarn-changing-image');
 
 let ChangedColor = false;
-
+something;
 const changeColors = () => {
     ChangedColor = true;
 
