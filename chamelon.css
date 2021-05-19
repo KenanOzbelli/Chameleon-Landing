@@ -53,7 +53,8 @@ body{
     padding:1rem;
 }
 .yarn-changing-image{
-    transition: opacity .5s;
+    cursor:pointer;
+    transition: opacity .1s;
 }
 @media (max-width: 769px){
     .col-md-6 {
