@@ -33,3 +33,5 @@ yarn_colors.forEach((yrnImg) => {
                 }, 00)
     })
 })
+
+console.log('Updated Version');
