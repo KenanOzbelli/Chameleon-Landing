@@ -1,6 +1,4 @@
 const yarnContainer = document.querySelector('.yarn-colors-div');
-const hueButton = yarnContainer.querySelector('.hueButton');
-const hueTitle = yarnContainer.querySelector('#HueTitle');
 const yarn_colors = yarnContainer.querySelectorAll('.yarn-changing-image');
 
 let ChangedColor = false;
@@ -32,6 +30,4 @@ yarn_colors.forEach((yrnImg) => {
                     yrnImg.style.opacity = 1;
                 }, 00)
     })
-})
-
-console.log('Updated Version');
+});
